@@ -1,0 +1,38 @@
+{
+  "groups": {
+    "active_window_status": {
+      "fg": "badwolf:skyblue",
+      "bg": "badwolf:blackestgravel",
+      "attrs": []
+    },
+    "window_status": {
+      "fg": "badwolf:lightgravel",
+      "bg": "badwolf:blackestgravel",
+      "attrs": []
+    },
+    "activity_status": {
+      "fg": "badwolf:dalespale",
+      "bg": "badwolf:blackestgravel",
+      "attrs": []
+    },
+    "bell_status": { "fg": "badwolf:taffy", "bg": "badwolf:blackestgravel", "attrs": [] },
+    "window": { "fg": "badwolf:mediumgravel", "bg": "badwolf:blackestgravel", "attrs": [] },
+    "window:divider": {
+      "fg": "badwolf:deepgravel",
+      "bg": "badwolf:blackestgravel",
+      "attrs": []
+    },
+    "window:current": {
+      "fg": "badwolf:brightblue",
+      "bg": "badwolf:tardis",
+      "attrs": []
+    },
+    "window_name": { "fg": "badwolf:snow", "bg": "badwolf:tardis", "attrs": ["bold"] },
+    "session": { "fg": "badwolf:coal", "bg": "badwolf:brightgravel", "attrs": ["bold"] },
+    "session:prefix": {
+      "fg": "badwolf:brightgravel",
+      "bg": "badwolf:tardis",
+      "attrs": ["bold"]
+    }
+  }
+}

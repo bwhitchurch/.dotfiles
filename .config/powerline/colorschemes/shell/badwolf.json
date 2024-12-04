@@ -1,0 +1,36 @@
+{
+  "name": "Badwolf color scheme for shell prompts",
+  "groups": {
+    "hostname": {
+      "fg": "badwolf:dalespale",
+      "bg": "badwolf:orange",
+      "attrs": []
+    },
+    "environment": {
+      "fg": "badwolf:snow",
+      "bg": "badwolf:darkgreen",
+      "attrs": []
+    },
+    "mode": {
+      "fg": "badwolf:darkgreen",
+      "bg": "badwolf:lime",
+      "attrs": ["bold"]
+    },
+    "attached_clients": {
+      "fg": "badwolf:snow",
+      "bg": "badwolf:darkgreen",
+      "attrs": []
+    }
+  },
+  "mode_translations": {
+    "vicmd": {
+      "groups": {
+        "mode": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:snow",
+          "attrs": ["bold"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "segments": {
+    "left": [
+      {
+        "function": "powerline.segments.shell.mode",
+        "priority": 10,
+        "args": {
+            "override": {
+                "vicmd": "COMMND",
+                "main": "INSERT",
+                "viopp": "PENDING",
+                "visual": "VISUAL"
+            }
+        }
+      },
+      {
+        "function": "powerline.segments.common.net.hostname",
+        "priority": 10,
+        "args": {
+            "exclude_domain": false,
+            "only_if_ssh": true
+        }
+      },
+      {
+        "function": "powerline.segments.common.env.user",
+        "priority": 30,
+        "args": {
+            "hide_domain": false,
+            "hide_user": ""
+        }
+      },
+      {
+        "function": "powerline.segments.shell.cwd",
+        "priority": 10,
+        "args": {
+            "ellipsis": "...",
+            "use_path_separator": false,
+            "dir_limit_depth": 3,
+            "dir_shorten_len": 3,
+            "use_shortened_path":true
+        }
+      },
+      {
+        "function": "powerline.segments.common.env.virtualenv",
+        "priority": 10,
+        "args": {
+            "ignore_venv": false,
+            "ignore_conda": false
+        }      
+      },
+      {
+        "function": "powerline.segments.shell.jobnum",
+        "priority": 20,
+        "args": {
+            "show_zero": false
+        }
+      }
+    ],
+    "right": [
+      {
+        "function": "powerline.segments.shell.last_pipe_status",
+        "priority": 10
+      },
+      {
+        "function": "powerline.segments.common.vcs.stash",
+        "priority": 50
+      },
+      {
+        "function": "powerline.segments.common.vcs.branch",
+        "priority": 40,
+        "args": {
+            "status_colors": true,
+            "ignore_statuses": ["U"]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "name": "badwolf color scheme",
+  "groups": {
+    "information:unimportant": {
+      "fg": "badwolf:lightgravel",
+      "bg": "badwolf:blackgravel",
+      "attrs": []
+    },
+    "information:additional": {
+      "fg": "badwolf:lightergravel",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "background": {
+      "fg": "badwolf:snow",
+      "bg": "badwolf:blackgravel",
+      "attrs": []
+    },
+    "background:divider": {
+      "fg": "badwolf:mediumgravel",
+      "bg": "badwolf:blackgravel",
+      "attrs": []
+    },
+    "mode": {
+      "fg": "badwolf:darkgreen",
+      "bg": "badwolf:lime",
+      "attrs": ["bold"]
+    },
+    "visual_range": {
+      "fg": "badwolf:creamsicle",
+      "bg": "badwolf:orange",
+      "attrs": ["bold"]
+    },
+    "modified_indicator": {
+      "fg": "badwolf:dirtyblonde",
+      "bg": "badwolf:deepergravel",
+      "attrs": ["bold"]
+    },
+    "paste_indicator": {
+      "fg": "badwolf:snow",
+      "bg": "badwolf:orange",
+      "attrs": ["bold"]
+    },
+    "readonly_indicator": {
+      "fg": "badwolf:taffy",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "branch_dirty": {
+      "fg": "badwolf:dirtyblonde",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "branch:divider": {
+      "fg": "badwolf:gravel",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "file_name": {
+      "fg": "badwolf:snow",
+      "bg": "badwolf:deepergravel",
+      "attrs": ["bold"]
+    },
+    "window_title": {
+      "fg": "badwolf:snow",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "file_name_no_file": {
+      "fg": "badwolf:lightergravel",
+      "bg": "badwolf:deepergravel",
+      "attrs": ["bold"]
+    },
+    "file_vcs_status": {
+      "fg": "badwolf:taffy",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "file_vcs_status_M": {
+      "fg": "badwolf:dirtyblonde",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "file_vcs_status_A": {
+      "fg": "badwolf:lime",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "line_percent": {
+      "fg": "badwolf:lightergravel",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "line_percent_gradient": {
+      "fg": "dark_green_gray",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "position": {
+      "fg": "badwolf:lightergravel",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "position_gradient": {
+      "fg": "green_yellow_red",
+      "bg": "badwolf:deepergravel",
+      "attrs": []
+    },
+    "line_current": {
+      "fg": "badwolf:blackgravel",
+      "bg": "badwolf:brightgravel",
+      "attrs": ["bold"]
+    },
+    "line_current_symbol": {
+      "fg": "badwolf:blackgravel",
+      "bg": "badwolf:brightgravel",
+      "attrs": []
+    },
+    "virtcol_current_gradient": {
+      "fg": "dark_GREEN_Orange_red",
+      "bg": "badwolf:brightgravel",
+      "attrs": []
+    },
+    "col_current": {
+      "fg": "badwolf:mediumgravel",
+      "bg": "badwolf:brightgravel",
+      "attrs": []
+    },
+    "modified_buffers": {
+      "fg": "badwolf:dirtyblonde",
+      "bg": "badwolf:blackgravel",
+      "attrs": []
+    },
+    "attached_clients": {
+      "fg": "badwolf:lightgravel",
+      "bg": "badwolf:blackgravel",
+      "attrs": []
+    },
+    "error": { "fg": "badwolf:taffy", "bg": "badwolf:wine", "attrs": ["bold"] },
+    "warning": {
+      "fg": "badwolf:dirtyblonde",
+      "bg": "badwolf:orange",
+      "attrs": ["bold"]
+    },
+    "current_tag": {
+      "fg": "badwolf:lightergravel",
+      "bg": "badwolf:blackgravel",
+      "attrs": []
+    },
+
+    "tab_nc:modified_indicator": {
+      "fg": "badwolf:dirtyblonde",
+      "bg": "badwolf:blackgravel",
+      "attrs": ["bold"]
+    }
+  },
+  "mode_translations": {
+    "nc": {
+      "colors": {
+        "badwolf:dirtyblonde": "badwolf:orange",
+        "badwolf:taffy": "badwolf:wine",
+        "badwolf:blackestgravel": "badwolf:blackestgravel",
+        "badwolf:blackgravel": "badwolf:blackestgravel",
+        "badwolf:blackgravel": "badwolf:blackestgravel",
+        "badwolf:deepergravel": "badwolf:blackgravel",
+        "badwolf:deepergravel": "badwolf:blackgravel",
+        "badwolf:deepgravel": "badwolf:blackgravel",
+        "badwolf:mediumgravel": "badwolf:blackgravel",
+        "badwolf:gravel": "badwolf:deepergravel",
+        "badwolf:lightgravel": "badwolf:deepergravel",
+        "badwolf:lightergravel": "badwolf:deepergravel",
+        "badwolf:brightgravel": "badwolf:deepgravel",
+        "badwolf:snow": "badwolf:mediumgravel",
+        "dark_green_gray": "badwolf:deepgravel"
+      }
+    },
+    "i": {
+      "colors": {
+        "badwolf:blackestgravel": "badwolf:tardis",
+        "badwolf:blackgravel": "badwolf:tardis",
+        "badwolf:blackgravel": "badwolf:tardis",
+        "badwolf:deepergravel": "badwolf:tardis",
+        "badwolf:deepergravel": "badwolf:tardis",
+        "badwolf:deepgravel": "badwolf:brightblue",
+        "badwolf:mediumgravel": "badwolf:brightblue",
+        "badwolf:gravel": "badwolf:brightblue",
+        "badwolf:lightgravel": "badwolf:skyblue",
+        "badwolf:lightergravel": "badwolf:skyblue",
+        "badwolf:brightgravel": "badwolf:skyblue",
+        "green_yellow_red": "badwolf:deepgravel",
+        "dark_green_gray": "light_green_gray"
+      },
+      "groups": {
+        "mode": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:snow",
+          "attrs": ["bold"]
+        },
+        "background:divider": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:tardis",
+          "attrs": []
+        },
+        "branch:divider": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:tardis",
+          "attrs": []
+        }
+      }
+    },
+    "ic": {
+      "colors": {
+        "badwolf:blackestgravel": "badwolf:tardis",
+        "badwolf:blackgravel": "badwolf:tardis",
+        "badwolf:blackgravel": "badwolf:tardis",
+        "badwolf:deepergravel": "badwolf:tardis",
+        "badwolf:deepergravel": "badwolf:tardis",
+        "badwolf:deepgravel": "badwolf:brightblue",
+        "badwolf:mediumgravel": "badwolf:brightblue",
+        "badwolf:gravel": "badwolf:brightblue",
+        "badwolf:lightgravel": "badwolf:skyblue",
+        "badwolf:lightergravel": "badwolf:skyblue",
+        "badwolf:brightgravel": "badwolf:skyblue",
+        "green_yellow_red": "badwolf:deepgravel",
+        "dark_green_gray": "light_green_gray"
+      },
+      "groups": {
+        "mode": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:snow",
+          "attrs": ["bold"]
+        },
+        "background:divider": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:tardis",
+          "attrs": []
+        },
+        "branch:divider": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:tardis",
+          "attrs": []
+        }
+      }
+    },
+    "ix": {
+      "colors": {
+        "badwolf:blackestgravel": "badwolf:tardis",
+        "badwolf:blackgravel": "badwolf:tardis",
+        "badwolf:blackgravel": "badwolf:tardis",
+        "badwolf:deepergravel": "badwolf:tardis",
+        "badwolf:deepergravel": "badwolf:tardis",
+        "badwolf:deepgravel": "badwolf:brightblue",
+        "badwolf:mediumgravel": "badwolf:brightblue",
+        "badwolf:gravel": "badwolf:brightblue",
+        "badwolf:lightgravel": "badwolf:skyblue",
+        "badwolf:lightergravel": "badwolf:skyblue",
+        "badwolf:brightgravel": "badwolf:skyblue",
+        "green_yellow_red": "badwolf:deepgravel",
+        "dark_green_gray": "light_green_gray"
+      },
+      "groups": {
+        "mode": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:snow",
+          "attrs": ["bold"]
+        },
+        "background:divider": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:tardis",
+          "attrs": []
+        },
+        "branch:divider": {
+          "fg": "badwolf:brightblue",
+          "bg": "badwolf:tardis",
+          "attrs": []
+        }
+      }
+    },
+    "v": {
+      "groups": {
+        "mode": {
+          "fg": "badwolf:orange",
+          "bg": "badwolf:creamsicle",
+          "attrs": ["bold"]
+        }
+      }
+    },
+    "V": {
+      "groups": {
+        "mode": {
+          "fg": "badwolf:orange",
+          "bg": "badwolf:creamsicle",
+          "attrs": ["bold"]
+        }
+      }
+    },
+    "^V": {
+      "groups": {
+        "mode": {
+          "fg": "badwolf:orange",
+          "bg": "badwolf:creamsicle",
+          "attrs": ["bold"]
+        }
+      }
+    },
+    "R": {
+      "groups": {
+        "mode": { "fg": "badwolf:snow", "bg": "brightred", "attrs": ["bold"] }
+      }
+    },
+    "Rc": {
+      "groups": {
+        "mode": { "fg": "badwolf:snow", "bg": "brightred", "attrs": ["bold"] }
+      }
+    },
+    "Rx": {
+      "groups": {
+        "mode": { "fg": "badwolf:snow", "bg": "brightred", "attrs": ["bold"] }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "segments": {
+    "left": [
+      {
+        "function": "powerline.segments.common.env.virtualenv",
+        "priority": 10,
+        "args": {
+          "ignore_conda": true,
+          "ignore_venv": false
+        }
+      }
+    ],
+    "right": [
+      {
+        "function": "powerline.segments.common.env.virtualenv",
+        "priority": 10
+      }
+    ]
+  }
+}
