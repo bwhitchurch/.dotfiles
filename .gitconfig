@@ -1,0 +1,77 @@
+[user]
+# Please adapt and uncomment the following lines:
+	name = 
+    email = 
+	signingKey = 
+
+[core]
+    excludesfile = /home/brandon/.config/git/gitignore
+    editor = vim
+
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+    diff = auto
+
+[diff]
+    tool = vimdiff
+
+[merge]
+    tool = vimdiff
+
+[difftool]
+    prompt = false
+
+[difftool "vimdiff"]
+    cmd = vim -f -d -c 'wincm l' -c 'cd "$GIT_PREFIX"' "$LOCAL" "$REMOTE"
+
+[alias]
+    d = difftool
+    lg = log --decorate --pretty=oneline2  --graph 
+	qs = !git-quick-stats
+	co = checkout
+	ci = commit
+	st = status
+    br = branch
+    mt = mergetool
+    unstage = reset HEAD --
+    hard-prune-check = "!git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}'"
+    hard-prune = "!git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D"
+
+[pretty]
+    oneline2 = format:%C(yellow)%h %Cblue %aI %Creset%s
+
+[hub]
+
+[pull]
+    rebase = true
+
+[checkout]
+    defaultRemote = origin
+
+[init]
+    defaultBranch = trunk
+
+[url "https://"]
+    insteadOf = git://
+
+[lfs]
+    concurrentTransfers = 2
+    fetchrecentrefsdays = 1
+    fetchrecentcommitsdays = 1
+    fetchrecentalways = false
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+    gpgSign = true
+[tag]
+    gpgSign = true
+[push]
+    gpgSign = if-asked
+[rerere]
+	enabled = on
