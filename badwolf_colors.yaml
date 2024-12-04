@@ -1,0 +1,52 @@
+---
+badwolf:
+  colors:
+    # The basics
+    snow: ["ffffff", 15]
+    plain: ["f8f6f2", 15]
+    coal: ["000000", 0]
+
+    # Greys. These are all shades of plain.
+    blackestgravel: ["161513", 233]
+    blackgravel: ["2c2a26", 235]
+    darkgravel: ["423f39", 238]
+    deepergravel: ["58544c", 240]
+    deepgravel: ["6e6a60", 242]
+    mediumgravel: ["847f73", 244]
+    gravel: ["9a9486", 246]
+    lightgravel: ["b0a999", 249]
+    lightergravel: ["c6beac", 251]
+    brightgravel: ["ddd4c0", 253]
+
+    # Browns. All based on complementary color of tardis
+    darkroast: ["3c1c00", 58]
+    toffee: ["6f3400", 94]
+    coffee: ["bc5800", 130]
+
+    # Reds
+    wine: ["56002d", 52]
+    midred: ["bc0064", 125]
+    taffy: ["ff0a8c", 198]
+
+    # Oranges
+    orange: ["ff7c0a", 208]
+    creamsicle: ["ffa557", 215]
+
+    # Yellows
+    dalespale: ["fade3e", 220]
+    dirtyblonde: ["fceb89", 222]
+
+    # Greens
+    darkgreen: ["3b6f00", 22]
+    midgreen: ["64bc00", 70]
+    lime: ["7fef00", 118]
+
+    # Blues
+    tardis: ["003b6f", 18]
+    brightblue: ["0064bc", 25]
+    skyblue: ["0a8cff", 33]
+
+    # Purples
+    royalty: ["34006F", 53]
+    plum: ["7c0aff", 93]
+    dress: ["cea4ff", 183]
