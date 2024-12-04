@@ -1,0 +1,31 @@
+*background:#161513
+*foreground:#f8f6f2
+*cursorColor:#0a8cff
+*scrollColor:#2c2a26
+*fadeColor:#000000
+*fading:5
+
+! black
+*color0:#000000
+*color8:#847f73
+! red
+*color1: #bc0064
+*color9: #ff0a8c
+! green
+*color2: #3b6f00
+*color10: #7fef00
+! yellow
+*color3: #fade3e
+*color11: #fceb89
+! blue
+*color4: #003b6f
+*color12: #0064bc
+! magenta
+*color5: #34006f
+*color13: #7c0aff
+! cyan but actually orange
+*color6: #ff7c0a
+*color14: #ffa557
+! white
+*color7: #6e6a60
+*color15: #ffffff
