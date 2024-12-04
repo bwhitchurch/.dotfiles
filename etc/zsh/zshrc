@@ -1,0 +1,50 @@
+#!/bin/zsh
+set -o auto_cd
+set -o cdable_vars
+set -o chase_dots
+set -o always_to_end
+set -o auto_name_dirs
+set -o complete_aliases
+set -o complete_in_word
+set -o glob_complete
+set -o list_packed
+set -o list_rows_first
+set -o brace_ccl
+set -o extended_glob
+set -o glob_star_short
+set -o glob_subst
+set -o magic_equal_subst
+set -o mark_dirs
+set -o numeric_glob_sort
+set -o RC_EXPAND_PARAM
+set -o REMATCH_PCRE
+set -o hist_find_no_dups
+set -o hist_verify
+set -o correct
+set -o dvorak
+set -o auto_continue
+set -o ksh_arrays
+set -o vi
+
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+if [[ -f "/etc/dircolors" ]] ; then
+    eval "$(dircolors -b /etc/dircolors)"
+fi
+
+if [[ -f "$HOME/.dircolors" ]] ; then
+    eval "$(dircolors -b $HOME/.dircolors)"
+fi
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias trip='trip -v 3'
+
+alias l='ls'
+alias ll='ls -l'
+alias la='ls -la'
+alias lh='ls -lah'
+alias ..='cd ..'
+alias :q='exit'
+
+bindkey -a '^[[3~' delete-char
